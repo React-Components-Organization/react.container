@@ -17,7 +17,8 @@
     "react.container",
     "react",
     "component",
-    "react-container"
+    "react-container",
+    "react-component"
   ],
   "author": "Olivier Colonna <oliviercolonna@gmail.com>",
   "license": "MIT",
