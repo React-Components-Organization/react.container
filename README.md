@@ -4,6 +4,7 @@
 [![npm version](https://badge.fury.io/js/react.container.svg)](https://badge.fury.io/js/react.container)
 
 [![NPM](https://nodei.co/npm-dl/react.container.png?months=1)](https://nodei.co/npm/react.container/)
+
 [![NPM](https://nodei.co/npm-dl/react.container.png?downloads=true)](https://nodei.co/npm/react.container/)
 
 A flexible and reusable react component, build with ES2015.
