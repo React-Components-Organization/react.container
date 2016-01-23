@@ -1,6 +1,6 @@
 /*jshint esversion:6*/
 /**
- * @AUTHORS oliviercolonna@gmail.com
+ * @author oliviercolonna@gmail.com
  * Copyright(c) 2016 Olivier Colonna
  * MIT Licensed
  */
@@ -85,10 +85,10 @@ class ReactContainer extends React.Component {
   }
 
   render () {
-    const { config, cls, children, id } = this.props;
+    const { config, cls, children, id, baseCls } = this.props;
 
     return (
-      <div id={id} ref={cls} className={'container ' + cls} style={config}>
+      <div id={id} ref={cls} className={`${baseCls} ${cls}`} style={config}>
         {children}
       </div>
     );
@@ -102,6 +102,7 @@ class ReactContainer extends React.Component {
 ReactContainer.defaultProps = {
   hidden: false,
   id: void 0,
+  baseCls: 'container',
   cls: ''
 };
 
@@ -109,6 +110,7 @@ ReactContainer.defaultProps = {
  * Properties types
  */
 ReactContainer.propTypes = {
+  baseCls: React.PropTypes.string,
   cls: React.PropTypes.string,
   children: React.PropTypes.node,
   scrollable: React.PropTypes.bool,
