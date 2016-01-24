@@ -75,7 +75,7 @@ const config = {
 
 #### floating {object}
 
->**NOTE:** true to make this Container floatable. This will make your Container in position 'absolute'.
+>**NOTE:** An object of position properties to make this Container floatable. This will make your Container in position 'absolute'.
 
 ```js
 const floatingObject = {
