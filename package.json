@@ -1,7 +1,7 @@
 {
   "name": "react.container",
   "version": "1.0.19",
-  "description": "A generic React.js reusable Container",
+  "description": "A generic and reusable React.js Container",
   "main": "index.js",
   "scripts": {
     "test": "gulp",
