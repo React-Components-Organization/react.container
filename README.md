@@ -98,7 +98,7 @@ const floatingObject = {
 
 #### width {number}
 
->**NOTE:** The height of this Component; must be a valid CSS length value, e.g: 300, 100px, 30%, etc. By default, if this is not explicitly set, this Component's element will simply have its own natural size.
+>**NOTE:** The width of this Component; must be a valid CSS length value, e.g: 300, 100px, 30%, etc. By default, if this is not explicitly set, this Component's element will simply have its own natural size.
 
 ```js
 <ReactContainer width={100} />
