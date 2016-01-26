@@ -88,7 +88,7 @@ class ReactContainer extends React.Component {
     const { config, cls, children, id, baseCls } = this.props;
 
     return (
-      <div id={id} ref={cls} className={`${baseCls} ${cls}`} style={config}>
+      <div id={id} ref={cls} className={`container ${cls}`} style={config}>
         {children}
       </div>
     );
@@ -102,7 +102,6 @@ class ReactContainer extends React.Component {
 ReactContainer.defaultProps = {
   hidden: false,
   id: void 0,
-  baseCls: 'container',
   cls: ''
 };
 
