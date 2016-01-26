@@ -100,6 +100,7 @@ class ReactContainer extends React.Component {
  * Default properties of the container.
  */
 ReactContainer.defaultProps = {
+  config: {},
   hidden: false,
   id: void 0,
   cls: ''
