@@ -110,6 +110,7 @@ ReactContainer.defaultProps = {
  * Properties types
  */
 ReactContainer.propTypes = {
+  children: React.PropTypes.node,
   baseCls: React.PropTypes.string,
   cls: React.PropTypes.string,
   children: React.PropTypes.node,
