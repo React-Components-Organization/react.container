@@ -1,6 +1,6 @@
 {
   "name": "react.container",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "A generic and reusable React.js Container",
   "main": "index.js",
   "scripts": {
