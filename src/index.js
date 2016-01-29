@@ -1,4 +1,6 @@
-/*jshint esversion:6*/
+/* jshint strict: true */
+/* jshint esversion: 6 */
+
 /**
  * @author oliviercolonna@gmail.com
  * Copyright(c) 2016 Olivier Colonna
@@ -113,7 +115,6 @@ ReactContainer.propTypes = {
   children: React.PropTypes.node,
   baseCls: React.PropTypes.string,
   cls: React.PropTypes.string,
-  children: React.PropTypes.node,
   scrollable: React.PropTypes.bool,
   direction: React.PropTypes.oneOf(['vertical', 'horizontal', 'both']),
   config: React.PropTypes.object,
