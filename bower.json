@@ -1,0 +1,26 @@
+{
+  "name": "react.container",
+  "description": "A generic and reusable React.js Container",
+  "main": "index.js",
+  "authors": [
+    "Olivier Colonna <oliviercolonna@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "React.js",
+    "react.container",
+    "react",
+    "component",
+    "react-container",
+    "react-component"
+  ],
+  "homepage": "https://github.com/React-Components-Organization/react.container",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
