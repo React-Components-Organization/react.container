@@ -26,7 +26,7 @@
     "url": "https://github.com/React-Components-Organization/react.container/issues"
   },
   "homepage": "https://github.com/React-Components-Organization/react.container#readme",
-  "peerDependencies": {
+  "dependencies": {
     "react": "^0.14.6"
   },
   "devDependencies": {
