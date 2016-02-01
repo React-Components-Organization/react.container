@@ -51,6 +51,7 @@ class ReactContainer extends React.Component {
     const x = 'overflowX';
 
     if(scrollable) {
+      config.webkitOverflowScrolling = 'touch';
       if(direction === 'vertical') {
         config[y] = 'scroll';
         config[x] = 'hidden';
