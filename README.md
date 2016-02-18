@@ -25,9 +25,9 @@ const config = {
 };
 
 // direction can be 'vertical' or 'horizontal'
-// hidden define if the container is visible or not, if hidden is not set container is // visible
+// hidden define if the container is visible or not, if hidden is not set container is visible
 <ReactContainer scrollable direction={'vertical'} config={config} hidden>
-  ... // child component live here
+  ... // child components live here
 </ReactContainer>
 ```
 
@@ -35,11 +35,11 @@ const config = {
 
 #### scrollable {boolean}
 
->**NOTE:** Configuration options to make this Container scrollable. By default a container is not scrollable.
+>**NOTE:** Configuration options to make this Container scrollable. By default a container is not scrollable
 
 ```js
 <ReactContainer scrollable={true} />
-
+  or
 <ReactContainer scrollable />
 ```
 
@@ -86,21 +86,21 @@ const floatingObject = {
 
 #### height {number}
 
->**NOTE:** The height of this Component; must be a valid CSS length value, e.g: 300, 100px, 30%, etc. By default, if this is not explicitly set, this Component's element will simply have its own natural size.
+>**NOTE:** The height of this Component; must be a vnumber value, e.g: 300. By default, if this is not explicitly set, this Component's element will simply have its own natural size.
 
 ```js
 <ReactContainer height={100} />
 ```
 
-#### width {number}
+#### width {Number}
 
->**NOTE:** The width of this Component; must be a valid CSS length value, e.g: 300, 100px, 30%, etc. By default, if this is not explicitly set, this Component's element will simply have its own natural size.
+>**NOTE:** The width of this Component; must be number value, e.g: 300. By default, if this is not explicitly set, this Component's element will simply have its own natural size.
 
 ```js
 <ReactContainer width={100} />
 ```
 
-#### config {object}
+#### config {Object}
 
 >**NOTE:** The most important property, object CSS styles that will be rendered into an inline style attribute when the Component is rendered. Any CSS style can be set in config. By default a container is 'naked', so feel free to style it at will.
 
