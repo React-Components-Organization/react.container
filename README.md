@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/React-Components-Organization/react.container.svg?branch=master)](https://travis-ci.org/React-Components-Organization/react.container)
 [![npm version](https://badge.fury.io/js/react.container.svg)](https://badge.fury.io/js/react.container)
+[![npm](https://img.shields.io/npm/dt/react.container.svg)](https://www.npmjs.com/package/react.container)
 
 A flexible and reusable react component, build with ES2015.
 
