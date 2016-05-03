@@ -11,18 +11,27 @@
 
 import React from 'react';
 
-class ReactContainer extends React.Component {
+export default class ReactContainer extends React.Component {
 
   constructor (props) {
     super(props);
-    let { scrollable, config, direction, hidden, floating, height, width} = this.props;
+    this.state = {};
+  }
+
+  componentDidMount () {
+    let {
+      scrollable,
+      config,
+      direction,
+      hidden,
+      floating,
+      height,
+      width } = this.props;
 
     this.applyScroll(config, direction, scrollable);
     this.applyHidden(config, hidden);
     this.setSize(config, height, width);
     this.applyFloating(config, floating);
-
-    this.state = {};
   }
 
   /**
@@ -90,10 +99,13 @@ class ReactContainer extends React.Component {
   }
 
   render () {
-    const { config, cls, children, id, baseCls } = this.props;
+    const { config, cls, children, baseCls } = this.props;
 
     return (
-      <div id={id} ref={cls} className={`container ${cls}`} style={config}>
+      <div
+        ref={cls}
+        className={`container ${cls}`}
+        style={config}>
         {children}
       </div>
     );
@@ -107,7 +119,6 @@ class ReactContainer extends React.Component {
 ReactContainer.defaultProps = {
   config: {},
   hidden: false,
-  id: void 0,
   cls: ''
 };
 
@@ -129,5 +140,3 @@ ReactContainer.propTypes = {
     React.PropTypes.object
   ])
 };
-
-export default ReactContainer;
