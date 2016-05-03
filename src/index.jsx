@@ -99,7 +99,7 @@ export default class ReactContainer extends React.Component {
   }
 
   render () {
-    const { config, cls, children, baseCls } = this.props;
+    const { config, cls, children } = this.props;
 
     return (
       <div
@@ -111,7 +111,7 @@ export default class ReactContainer extends React.Component {
     );
   }
 
-};
+}
 
 /**
  * Default properties of the container.
