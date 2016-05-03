@@ -130,7 +130,9 @@ ReactContainer.propTypes = {
   baseCls: React.PropTypes.string,
   cls: React.PropTypes.string,
   scrollable: React.PropTypes.bool,
-  direction: React.PropTypes.oneOf(['vertical', 'horizontal', 'both']),
+  direction: React.PropTypes.oneOf([
+    'vertical', 'horizontal', 'both'
+  ]),
   config: React.PropTypes.object,
   hidden: React.PropTypes.bool,
   height: React.PropTypes.number,
